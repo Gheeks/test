@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ia1JzFmNOcWdW2q9eMl3NNE3XsES1l6thkeW6sK+5QzUAz1+TdgWr6GLB8jx/hbajMJAQHNKj60Fctzux6vK+Q==",
+  "success": true,
+  "projectFilePath": "E:\\SARPG-V\\Base\\Client\\Base.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aleksia\\.nuget\\packages\\citizenfx.core.client\\1.0.4287\\citizenfx.core.client.1.0.4287.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+E:\SARPG-V\Base\Server\bin\Release\net472\Base.Server.net.dll
+E:\SARPG-V\Base\Server\bin\Release\net472\Base.Server.net.pdb
+E:\SARPG-V\Base\Server\bin\Release\net472\CitizenFX.Core.Server.dll
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.csprojAssemblyReference.cache
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.AssemblyInfoInputs.cache
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.AssemblyInfo.cs
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.csproj.CoreCompileInputs.cache
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.csproj.CopyComplete
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.net.dll
+E:\SARPG-V\Base\Server\obj\Release\net472\Base.Server.net.pdb

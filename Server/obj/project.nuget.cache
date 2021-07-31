@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ynSLUDKpDeKJRABJQuiEY8Z7w2KJlNwapz65Gt/OBY68Bd4nbWFdlulXqATNpo5g+idsN7TATQBYl2XSynjC/Q==",
+  "success": true,
+  "projectFilePath": "E:\\SARPG-V\\Base\\Server\\Base.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aleksia\\.nuget\\packages\\citizenfx.core.server\\1.0.4287\\citizenfx.core.server.1.0.4287.nupkg.sha512"
+  ],
+  "logs": []
+}

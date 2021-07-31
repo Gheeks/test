@@ -1,0 +1,30 @@
+#  Template .NET Core build
+
+#  This template allows you to validate your .NET Core package.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+pipelines:
+  default:
+    - step:
+        name: Build and Test
+        caches:
+          - dotnetcore
+        script:
+          - dotnet restore
+          - dotnet build
+          - dotnet test
+    - step:
+        name: Lint the code
+        caches:
+          - dotnetcore
+        script:
+            - export SOLUTION_NAME=base
+            - export REPORTS_PATH=linter-reports
+            - dotnet new tool-manifest
+            - dotnet tool install JetBrains.ReSharper.GlobalTools
+            - dotnet tool restore
+            - dotnet jb inspectcode ${SOLUTION_NAME}.sln --output="${REPORTS_PATH}/jb-${BITBUCKET_BUILD_NUMBER}.xml"
+        artifacts:
+            - artefacts/**
